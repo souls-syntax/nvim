@@ -12,5 +12,13 @@ return {
 		-- optional but recommended
 		{ 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
 	    }
+	},
+	{
+		'nvim-treesitter/nvim-treesitter',
+		config = function() 
+			require("nvim-treesitter.configs").setup(require("after.treesitter"))
+		end,    
+		lazy = false,
+		build = ':TSUpdate'
 	}
 }
