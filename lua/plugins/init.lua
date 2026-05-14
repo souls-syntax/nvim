@@ -20,5 +20,6 @@ return {
 		end,    
 		lazy = false,
 		build = ':TSUpdate'
-	}
+	},
+	{ 'wakatime/vim-wakatime', lazy = false }
 }

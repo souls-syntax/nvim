@@ -1,3 +1,5 @@
+
+vim.deprecate = function() end
 require("core.mappings")
 require("core.lazy")
 require("after.init")
