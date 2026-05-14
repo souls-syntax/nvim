@@ -4,6 +4,7 @@ require("core.mappings")
 require("core.lazy")
 require("after.init")
 require("after.colours")
+require("after.snippets")
 vim.opt.clipboard = "unnamedplus"
 vim.g.clipboard = {
   name = "win32yank",
